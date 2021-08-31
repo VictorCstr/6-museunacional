@@ -60,7 +60,7 @@ a:hover{
 
 
 #flex{
-    float: left;
+    float: right;
     width: 710px;
     clear: both;
     display: flex;
@@ -88,7 +88,7 @@ a:hover{
 
 #flex-lado{
     margin: 10px 0px 60px 0px;
-    float: right;
+    float: left;
     display: flex;
     flex-direction: column;
     background: #ebe7dd;
@@ -165,4 +165,67 @@ footer{
     clear: both;
     background: url(imagens/fundo-rodape.png) repeat-x;
     padding-top: 10px;
+}
+
+
+@media (max-width:1080px){
+
+    body{
+        font-size: 14px;
+    }
+
+    #container{
+    width: 100%;
+    }
+
+    #flex{
+    width: 100%;
+    float: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .flexitens{
+    width: 40%;
+    }
+
+    #museu img{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: -10px;
+        padding: 0px;
+    }
+
+    #flex-lado{
+    float: none;
+    display: block;
+    width: 100%;
+    flex-direction: row;
+    }
+
+    .flexitenslado{
+    width: 100%;
+    }
+
+    #depoimento{
+    display: flex;
+    justify-content: center;
+    }
+}
+
+@media (max-width:738px){
+#flex{
+    flex-direction: column;
+}
+
+.flexitens{
+    width: 100%;
+}
+
+iframe{
+    width: calc(100% - 20px);
+    height: 40vh;
+}
+
 }
