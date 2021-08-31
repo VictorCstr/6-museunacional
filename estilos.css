@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f4f2ec url("imagens/fundo.png") repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:#af670a;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+#container{
+    margin: 0 auto; 
+    width: 1080px;
+}
+
+header{
+    padding: 10px 0px 20px 0px;
+}
+
+header h1{
+    text-indent: -5000px;
+
+}
+
+#logo{
+    width: 250px;
+    float: left;
+    background: url(imagens/logo.png) no-repeat top ;
+    
+}
+
+#navegacaotopo{
+    float: right;
+}
+
+a:hover{
+    color: #227115;
+    
+}
+
+#navegacaotopo a:hover{
+    border-bottom: 1px solid #227115;
+}
+
+#navegacaotopo li , #navegacaorodape li{
+    display: inline;
+    padding: 10px;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+
+#flex{
+    float: left;
+    width: 710px;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flexitens{
+    width: 330px;
+    padding: 10px;
+    transition: 2s;
+}
+
+.flexitens h3{
+    padding-bottom: 10px;
+    color: #227115;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight:bolder; 
+}
+
+.museu{
+    width: 710px;
+}
+
+#flex-lado{
+    margin: 10px 0px 60px 0px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background: #ebe7dd;
+}
+
+.flexitenslado{
+    border-radius: 30px;
+    width: 350px;
+    transition: 1s;
+}
+
+#visita{
+    margin: 5px 0px 10px 0px;
+    background: #cdc8b1;
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+}
+
+#flex-lado h3{
+    margin-top: 5px;
+    margin-left: 23px;
+    text-align: left;
+    color: #86521a;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight:900;
+}
+
+input#numero{
+width: 30px;
+}
+
+input#data{
+    margin-top: 10px;
+    width: 135px;
+}
+
+input#submit{
+    margin-top: 10px;
+    width: 80%;
+    background: #9b9271;
+    color: #fff;
+    border: 0px;
+    padding: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px; 
+}
+
+.fundofoto{
+    background: url(imagens/fundo-foto.png) no-repeat;
+    width: 130px;
+    height: 130px;
+}
+
+.fundofoto img{
+    position: relative;
+    top: 20px;
+    left: 17px;
+}
+
+.fundofoto:hover{
+ outline: 1px solid #fff;
+}
+
+footer{
+    text-align: center;
+    clear: both;
+    background: url(imagens/fundo-rodape.png) repeat-x;
+    padding-top: 10px;
+}

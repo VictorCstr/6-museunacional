@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" type="text/css" href="normalize/normalize.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+    <!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1><a id="logo" href="">Museu Nacional</a></h1>
+                <nav>
+                    <ul id="navegacaotopo">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Exposições</a></li>
+                        <li><a href="">Pesquisa</a></li>
+                        <li><a href="">Acervo</a></li>
+                        <li><a href="">Vídeos</a></li>
+                        <li><a href="">Fotos</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+    </header>
+            
+    <main id="flex">
+        <section class="flexitens museu"> 
+            <img src="imagens/museu.png">
+        </section>
+
+        <section class="flexitens">
+            <h3>Vídeo: Conheça o museu</h3>
+            <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc?autoplay=1&mute=1" frameborder="0"
+                allow="autoplay; encrypted-media" allowfullscreen></iframe>               
+        </section>
+
+        <section class="flexitens">
+            <h3>Mapa: Onde ficamos</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu+Nacional+-+UFRJ!5e0!3m2!1spt-BR!2sbr!4v1537538326477" width="310" height="170" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+
+        <section class="flexitens">
+            <h3>Exposições</h3>
+            <ul>
+                <li><a href="">Os assustadores insetos</a></li>
+                <li><a href="">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+                <li><a href="">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+                <li><a href="">Plantas do Brasil Central</a></li>
+                <li><a href="">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
+                <li><a href="">Arte Com Dinossauros - Paleoarte</a></li>
+                <li><a href=""><strong>Veja todos (65)</strong></a></li>
+            </ul>
+        </section>
+
+        <section class="flexitens">
+            <h3>200 anos de história</h3>
+            <p>Numa ponta que avançava sobre o mar, posteriormente conhecida
+            como Ponta do Calabouço, entre as praias de Piaçaba e Santa Luzia
+            , no centro histórico do Rio de Janeiro, os portugueses construíram
+            em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico
+            que hoje abriga o Museu Histórico Nacional.</p>
+            <a href=""><strong>Leia mais</strong></a>
+        </section>
+    </main>
+
+    <aside id="flex-lado">
+
+            <section class="flexitenslado">
+                <img src="imagens/depoimento.png">
+            </section>
+
+            <section id="visita" class="flexitenslado">
+                <h3>Marque sua visita</h3>
+                <form>
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data" required>
+
+                <label for="numero">Qnt pessoas:</label>
+                <input type="number" name="numero" id="numero" required min="1" max="5">
+
+                <input type="submit" id="submit" value="Checar disponibilidade">
+                </form>
+            </section>
+
+            <section class="flexitenslado">
+                <h3>Galeria de fotos</h3>
+                <div id="fotos">
+                    <figure class="fundofoto"><a href=""><img src="imagens/imagem1.jpg"></a></figure>
+                    <figure class="fundofoto"><a href=""><img src="imagens/imagem2.jpg"></a></figure>
+                    <figure class="fundofoto"><a href=""><img src="imagens/imagem3.jpg"></a></figure>
+                    <figure class="fundofoto"><a href=""><img src="imagens/imagem4.jpg"></a></figure>
+                </div>
+            </section>
+    </aside>
+
+    <footer>
+        <nav>
+            <ul id="navegacaorodape">
+                <li><a href="">Home</a></li>
+                <li><a href="">Exposições</a></li>
+                <li><a href="">Pesquisa</a></li>
+                <li><a href="">Acervo</a></li>
+                <li><a href="">Vídeos</a></li>
+                <li><a href="">Fotos</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+        <p>© Copyright | <a href=""> Museu nacional</a> | Made by: <cite>Victor Castro</cite> | 2021</p>
+        <h5>Layout inspirado de um curso na Udemy, feito por conta própria e editado</h5>
+    </footer>
+           
+            </div>
+</body>
+</html>
